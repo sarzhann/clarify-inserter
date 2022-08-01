@@ -3,12 +3,16 @@ module github.com/sarzhann/clarify-inserter
 go 1.18
 
 require (
-	github.com/clarify/clarify-go v0.2.0
+	github.com/clarify/clarify-go v0.2.1-0.20220721155937-698b5c108d8c
 	github.com/joho/godotenv v1.4.0
 )
 
 require (
+	github.com/cpuguy83/go-md2man/v2 v2.0.0-20190314233015-f79a8a8ca69d // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/russross/blackfriday/v2 v2.0.1 // indirect
+	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
+	github.com/urfave/cli v1.22.9 // indirect
 	golang.org/x/exp v0.0.0-20220613132600-b0d781184e0d // indirect
 	golang.org/x/net v0.0.0-20220621193019-9d032be2e588 // indirect
 	golang.org/x/oauth2 v0.0.0-20220608161450-d0670ef3b1eb // indirect
